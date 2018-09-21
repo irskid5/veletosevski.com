@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="macedonia" unicode="&#xe800;" d="M428 397c4 6 8 11 13 16 0 0 0 0 0-1l-251 266h-115c-18 0-35-7-48-18l401-263z m-13-56c-1 3-1 6-1 9s0 6 1 9v0l-415 43v-104l415 43v0z m85 95c5 0 9 0 13-1l39 243h-104l39-243c4 1 8 1 13 1z m59-23c5-5 9-10 13-16l401 263c-13 11-30 18-48 18h-115l-251-266c0 1 0 1 0 1z m13-110c-4-6-8-11-13-15 0 0 0 0 0 0l251-266h115c18 0 35 7 48 18l-401 263z m13 56c1-3 1-6 1-9 0-3 0-6-1-9v0l415-43v104l-415-43v0z m-85-95c-5 0-9 1-13 1l-39-243h104l-39 243c-4 0-8-1-13-1z m-59 24c-5 4-9 9-13 15l-401-263c13-11 30-18 48-18h115l251 266c0 0 0 0 0 0z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
