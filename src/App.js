@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-//import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { css } from "emotion";
 
+import { FaMusic } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 import "./util/icons.css";
 
 import titleImg from "./media/image1.svg";
-
-const code = "</>";
 
 class App extends Component {
   render() {
@@ -39,13 +39,13 @@ class App extends Component {
           `}
         >
           <div class="block">
-            <i class="hovicon effect-1 sub-a"><img src="./media/icons/music-player.svg"/></i>
+            <i class="hovicon effect-1 sub-a"><FaMusic /></i>
           </div>
           <div class="block">
-            <i class="hovicon effect-1 sub-a">{code}</i>
+            <i class="hovicon effect-1 sub-a"><FaCode /></i>
           </div>
           <div class="block">
-            <i class="hovicon effect-1 sub-a"><img src="./media/icons/macedonia.svg"/></i>
+            <i class="hovicon effect-1 sub-a"><img src={titleImg} /></i>
           </div>
         </div>
       </div>
