@@ -81,6 +81,6 @@
 }
 
 .slide {
-  background-position: unset;
+  background-position: inherit;
   filter: brightness(60%);
 }
