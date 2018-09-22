@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { css } from "emotion";
 import Slideshow from "react-slidez";
+import Favicon from "react-favicon";
 
 import { FaMusic } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
@@ -10,7 +11,7 @@ import { FaCode } from "react-icons/fa";
 import "./App.css";
 import "./util/icons.css";
 
-import titleImg from "./media/image1.svg";
+import logo from "./media/vele-logo.png";
 import slide1 from "./media/slide1.jpg";
 import slide2 from "./media/slide2.jpg";
 import slide3 from "./media/slide3.jpg";
@@ -21,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className={"mainscreen fadeIn"}>
+        <Favicon url={[logo]} />
         <Helmet>
           <meta charSet="utf-8" />
           <title>Vele Tosevski</title>
@@ -38,6 +40,7 @@ class App extends Component {
           height={"100%"}
           width={"100%"}
         />
+        <img src={logo} style={{ zIndex: "20", width: "20vw", height: "30vh" }} />
         <div className={"centralButtons fadeIn"}>
           <div class="block">
             <i class="hovicon effect-1 sub-a">
