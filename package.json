@@ -11,7 +11,8 @@
     "react-icons": "^3.1.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "react-slidez": "0.0.28"
   },
   "scripts": {
     "start": "react-scripts start",

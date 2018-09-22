@@ -11,7 +11,7 @@ body {
   height: 150px;
 }
 .hovicon {
-  display: inline-block;
+  display: flex;
   font-size: 45px;
   line-height: 90px;
   cursor: pointer;
@@ -24,6 +24,8 @@ body {
   text-decoration: none;
   z-index: 1;
   color: #fff;
+  justify-content: center;
+  align-items: center;
 }
 .hovicon.small {
   font-size: 20px;
@@ -90,10 +92,10 @@ body {
 /* Effect 1a */
 .hovicon.effect-1.sub-a:hover {
   background: rgba(255, 255, 255, 1);
-  color: #41ab6b;
+  color: #ffe600;
 }
 .hovicon.effect-1.sub-a:hover i {
-  color: #41ab6b;
+  color: #ffe600;
 }
 .hovicon.effect-1.sub-a:hover:after {
   -webkit-transform: scale(1);
