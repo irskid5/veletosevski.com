@@ -23,7 +23,7 @@ class App extends Component {
       <div className={"mainscreen fadeIn"}>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Home</title>
+          <title>Vele Tosevski</title>
           <link rel="canonical" href="https://www.veletosevski.com" />
         </Helmet>
         <Slideshow
