@@ -40,7 +40,7 @@ class App extends Component {
           height={"100%"}
           width={"100%"}
         />
-        <img src={logo} style={{ zIndex: "20", width: "20vw", height: "30vh" }} />
+        <img src={logo} style={{ zIndex: "20", width: "24vw", height: "24vh" }} />
         <div className={"centralButtons fadeIn"}>
           <div class="block">
             <i class="hovicon effect-1 sub-a">
