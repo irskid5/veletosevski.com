@@ -11,7 +11,7 @@ import { FaCode } from "react-icons/fa";
 import "./App.css";
 import "./util/icons.css";
 
-import logo from "./media/vele-logo.png";
+import logo from "./media/vele-logo.svg";
 import slide1 from "./media/slide1.jpg";
 import slide2 from "./media/slide2.jpg";
 import slide3 from "./media/slide3.jpg";
