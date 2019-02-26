@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 
-class underCons extends Component {}
+class UnderCons extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Under Construction. Check back soon.</h1>
+      </div>
+    );
+  }
+}
 
-export default underCons;
+export default UnderCons;
